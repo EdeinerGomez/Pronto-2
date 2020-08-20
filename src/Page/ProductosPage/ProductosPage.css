@@ -1,0 +1,199 @@
+
+.Button{
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 100;
+    color: black;
+    letter-spacing: 4px;
+    margin-left: 15px;
+    border-style:solid;
+    border-color: black;
+    padding: 5px 45px;
+    background: #ffaa3b;
+    border-color: #ffaa3b;
+    border-radius: 10px;
+
+}
+
+
+.Button__Drop{
+    font-size: 15px;
+    font-weight: 200;
+    color: #000000;
+    background: #ffffff;
+    padding: 5px 80px 5px 10px;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid black;
+    border-left: 1px solid white;
+    display: block;
+}
+
+.Button__Drop1{
+    font-size: 15px;
+    font-weight: 200;
+    color: #000000;
+    background: #ffffff;
+    padding: 5px 45px 5px 10px;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid black;
+    border-left: 1px solid white;
+    display: block;
+}
+
+.Button__Drop2{
+    font-size: 15px;
+    font-weight: 200;
+    color: #000000;
+    background: #ffffff;
+    padding: 5px 93px 5px 10px;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid black;
+    border-left: 1px solid white;
+    display: block;
+}
+
+.Button__Drop3{
+    font-size: 15px;
+    font-weight: 200;
+    color: #000000;
+    background: #ffffff;
+    padding: 5px 72px 5px 10px;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid black;
+    border-left: 1px solid white;
+    display: block;
+}
+
+.Button__Drop4{
+    font-size: 15px;
+    font-weight: 200;
+    color: #000000;
+    background: #ffffff;
+    padding: 5px 98px 5px 10px;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid black;
+    border-left: 1px solid white;
+    display: block;
+}
+
+.Button__Drop5{
+    font-size: 15px;
+    font-weight: 200;
+    color: #000000;
+    background: #ffffff;
+    padding: 5px 82px 5px 10px;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid black;
+    border-left: 1px solid white;
+    display: block;
+}
+
+.Lista1{
+    margin-top: 20px;
+    margin-left: 30px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 20px 10px 300px ;
+}
+
+.Ofertas{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.P1{
+    margin-bottom: -1px;
+    font-size: 12px;
+    font-weight: 200;
+    padding: 0px;
+    margin-left: 5px;
+
+}
+
+.P2{
+    font-size: 12px;
+    font-weight: 200;
+    margin-left: 5px;
+    margin-bottom: -4px;
+}
+
+.Select__Producto{
+    font-size: 12px;
+    font-weight: 200;
+    background: white;
+    border-color: white;
+
+
+}
+
+.Cja__Producto{
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.Button1{
+    margin-left: 10px;
+    font-size: 12px;
+    font-size: 100;
+    background: #ffaa3b ;
+    border-radius: 5px;
+    border-color: #ffaa3b
+
+}
+
+.Description{
+    border: 1px solid #000000;
+    border-radius: 10px;
+    height: 85px;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+}
+
+.Precio{
+    margin-left: 5px;
+}
+
+.Catalogo{
+    margin-left: 20px;
+}
+
+.Carnes{
+    margin-top: 20px;
+    margin-left: 250px;
+}
+
+.SubTitulo{
+    text-align: center;
+    margin-top: -450px;
+
+}
+
+h3{
+    text-align: center;
+    font-weight: 300;
+    margin-top: 200px;
+    font-size: 60px;
+    letter-spacing: 10px;
+}
+
+.P3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 5px;
+}
+
+.P4{
+  font-size: 30px;
+    font-weight: 200;
+    text-align: justify;
+
+}
