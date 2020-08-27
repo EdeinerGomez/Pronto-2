@@ -1,0 +1,16 @@
+h3{
+    font-size: 25px;
+    font-weight: 100;
+}
+
+#Footer{
+    background-color: #1d2545;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#Redes{
+    color: white;
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
