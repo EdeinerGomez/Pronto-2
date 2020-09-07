@@ -1,3 +1,9 @@
+#Contenedor__Home{
+background-image: url(../../Assets/Images/HOME-fondo.png);
+background-size: cover;
+
+}
+
 
 h1{
     font-size: 80px;
@@ -40,8 +46,8 @@ h2{
 .Image__Buscar{
     background: #ffaa3b;
     border-radius: 10px;
-    margin-left: 5px;
     margin-top: -4px;
+    display: inline-block;
 }
 
 @media (max-width: 570px) {
@@ -83,4 +89,8 @@ h2{
     border-radius: 10px;
 
 
+}
+
+.btn-color{
+    background: #ffaa3b;
 }

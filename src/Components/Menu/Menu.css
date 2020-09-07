@@ -1,15 +1,3 @@
-
-.Nav__menu{
-    background: #e8e8e8;
-    border-radius: 10px;
-    box-shadow: 2px 5px 10px #cccccc;
-    margin-top: 5px;
-}
-
-.Img__Logo{
-    margin-left: -20px;
-}
-
 .Select__Money{
     margin-left: 0px;
     background: #e8e8e8;
@@ -18,56 +6,21 @@
     font-weight: 100;
 }
 
-.Img__Menu{
-    margin-left: 40px;
-}
+#barra{
+    background: #e8e8e8;
+    border-radius: 10px;
 
-.bs{
-    margin-left: 30px;
-}
 
-.Perfil{
-    margin-left: 30px;
 }
 
 
-
-@media (max-width: 570px) {
-    .Img__Menu{
-        margin-bottom: 20px;
-        width: 40px;
-        height: 40px;
-        margin-left: 100px;
-    }
- }
-
-@media (max-width: 570px) {
-    .Img__Logo{
-        margin-left: 60px;
-        margin-bottom: 20px;
-       height: 50%;
-        width: 20px;
-    }
-
+#Ul{
+    margin-left: 150px;
 }
 
-@media (max-width: 570px) {
-    .bs{
-        margin-top: 20px;
-        width: 60px;
-        height: 60px;
-        margin-left: 150px;
-    }
 
-}
 
-@media (max-width: 570px) {
-    .Perfil{
-        margin-top: 20px;
-        width: 60px;
-        height: 60px;
-        margin-left: -20px;
 
-    }
 
-}
+
+

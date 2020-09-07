@@ -6,13 +6,14 @@ import {
 } from "reactstrap/es";
 import "./HomePage.css";
 import Menu from "../../Components/Menu";
+import Footer from "../../Components/Footer";
 
 class HomePage extends React.Component{
     render() {
         return(
             <React.Fragment>
             <Menu/>
-                <Container  fluid style={{backgroundImage:`url(${require('../../Assets/Images/HOME-fondo.png')})`}} >
+                <Container  fluid id="Contenedor__Home">
 
                     <Row >
                         <Col xs={2} lg={1}>
@@ -32,10 +33,9 @@ class HomePage extends React.Component{
                     </Row>
 
                     <Row>
-                        <Col  lg={1}>
-                        </Col>
 
-                        <Col className="text-center" xs={12} lg={5}>
+
+                        <Col className="text-center" xs={12} lg={7}>
                         <select className="Button__Select">
                             <option>
                                 ELIGE TU CIUDAD
@@ -43,12 +43,19 @@ class HomePage extends React.Component{
                             <option>Maracaibo</option>
                             <option>Ciudad Bolivar</option>
                             <option>Maracay</option>
+
                         </select>
 
-                        <img className="Image__Buscar" src={require('../../Assets/Images/buscar.png')} alt="logo" width="45px" height="47px"/>
+                            <img className="Image__Buscar ml-2" src={require('../../Assets/Images/buscar.png')} alt="logo" width="45px" height="47px"/>
+
+
+
+
+
                         </Col>
 
-                        <Col lg={6}>
+                        <Col lg={5}>
+
                         </Col>
 
                     </Row>
@@ -74,19 +81,21 @@ class HomePage extends React.Component{
                     </Row>
 
                      <Row>
-                         <Col xs={2} lg={1}>
-                         </Col>
-                         <Col className="col" xs={8} lg={5}>
-                      <button className="Button__SeeMore" >Ver Más</button>
+                         <Col lg={1}></Col>
+                         
+                         <Col className="col" xs={8} lg={6}>
+                         <button type="button" class="btn btn-color ml-2">Ver Más</button>
+
                          </Col>
                          <Col xs={2} lg={6}>
                          </Col>
                      </Row>
 
-
-
-
                 </Container>
+
+                <Row className="mt-5">
+                    <Footer/>
+                </Row>
             </React.Fragment>
         );
     }
